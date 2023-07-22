@@ -6,6 +6,8 @@ _Please note that Victorian is a real library but I wanted to share this before 
 
 The Victorian Asset Library Installer is a Blender addon designed to easily integrate the "Victorian" asset library into Blender's native asset browser. Once installed, users can access Victorian-themed assets directly from Blender's interface without needing to navigate through file systems or external resources.
 
+![showing the working addon and the install button](./docs/img/post_installed.png)
+
 ## Features:
 
 - **Simple Interface**: A panel in Blender's 3D view UI under the category "Victorian" contains a button to install the asset library.
