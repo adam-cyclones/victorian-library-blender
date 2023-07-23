@@ -26,7 +26,8 @@ class VICTORIAN_OT_add_asset_library(bpy.types.Operator):
 
         # Use the path to the addon's directory to locate the assets.blend file
         current_addon_dir = os.path.dirname(os.path.realpath(__file__))
-        assets_blend_path = os.path.join(current_addon_dir, "assets.blend")
+        assets_blend_path = os.path.join(
+            current_addon_dir, "..", "library")
 
         # Set the path for the new library
         new_lib.path = assets_blend_path
