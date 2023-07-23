@@ -9,5 +9,9 @@ bl_info = {
 }
 
 
+def unregister():
+    unregister()
+
+
 if __name__ == "__main__":
     register()
