@@ -1,0 +1,116 @@
+[
+  {
+    "name": "childrens bedroom",
+    "type": "room",
+    "description": "A small room designated for the children of the household to sleep and play in.",
+    "private": true
+  },
+  {
+    "name": "corridor",
+    "type": "passageway",
+    "description": "A narrow passageway that connects different rooms or areas of the house."
+  },
+  {
+    "name": "hallway",
+    "type": "passageway",
+    "description": "A large entranceway that serves as the main thoroughfare of the house."
+  },
+  {
+    "name": "living room",
+    "type": "room",
+    "description": "A spacious room where the family can relax and socialize.",
+    "private": false
+  },
+  {
+    "name": "bathroom",
+    "type": "room",
+    "description": "A room equipped with basic amenities for personal hygiene and grooming.",
+    "private": true
+  },
+  {
+    "name": "bedroom",
+    "type": "room",
+    "description": "A private room designated for sleeping and personal space.",
+    "private": true
+  },
+  {
+    "name": "dining room",
+    "type": "room",
+    "description": "A formal room designated for family meals and special occasions.",
+    "private": false
+  },
+  {
+    "name": "kitchen",
+    "type": "room",
+    "description": "A room equipped for preparing and storing food.",
+    "private": false
+  },
+  {
+    "name": "outside",
+    "type": "room",
+    "description": "The outdoor areas surrounding the house, such as the garden or yard.",
+    "private": false
+  },
+  {
+    "name": "wc",
+    "type": "room",
+    "description": "A small room equipped with basic amenities for personal hygiene and grooming.",
+    "private": true
+  },
+  {
+    "name": "door",
+    "type": "passageway",
+    "description": "A movable barrier used to block off an entranceway to a room or building. Doors in rural Victorian England were often made of wood and featured ornate handles and hinges."
+  },
+  {
+    "name": "arch",
+    "type": "passageway",
+    "description": "A curved structure that spans an opening, often used as an architectural feature in rural Victorian English homes. Arches were typically made of brick or stone and were used to support the weight of walls or ceilings."
+  },
+  {
+    "name": "front door",
+    "type": "passageway",
+    "description": "The main entranceway to a rural Victorian English home, typically located at the front of the house. Front doors were often made of wood and featured elaborate designs and fittings."
+  },
+  {
+    "name": "drawing room",
+    "type": "room",
+    "description": "A formal living space often reserved for receiving and entertaining guests. In grander homes, it might have been separate from a regular living room.",
+    "private": false
+  },
+  {
+    "name": "morning room",
+    "type": "room",
+    "description": "A relaxed room, often adjacent to the dining room, where the family might gather in the morning. It sometimes had a feminine touch with lighter decor.",
+    "private": false
+  },
+  {
+    "name": "dressing room",
+    "type": "room",
+    "description": "Adjacent to bedrooms, this room was a space to store clothes, get dressed, and often had a vanity. More common in grander homes.",
+    "private": true
+  },
+  {
+    "name": "library",
+    "type": "room",
+    "description": "A room dedicated to the storage and reading of books. It might also serve as a study or office.",
+    "private": true
+  },
+  {
+    "name": "conservatory",
+    "type": "room",
+    "description": "A glass room, often attached to the side of a house, designed to house plants and offer a sunny space for relaxation.",
+    "private": false
+  },
+  {
+    "name": "pantry",
+    "type": "room",
+    "description": "A small storage room where food, dishes, and other household items are kept. It's typically close to the kitchen.",
+    "private": true
+  },
+  {
+    "name": "staircase",
+    "type": "passageway",
+    "description": "A set of steps connecting different floors of a house. Staircases in Victorian homes could be grand and ornate in wealthier homes, or simple and functional in more modest homes."
+  }
+]
