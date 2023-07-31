@@ -1,0 +1,222 @@
+[
+  {
+    "name": "childrens bedroom",
+    "allowConnections": [
+      {
+        "transactionID": 1681681993452,
+        "too": "corridor",
+        "using": ["door"]
+      },
+      {
+        "transactionID": 1681681997251,
+        "too": "hallway",
+        "using": ["door"]
+      },
+      {
+        "transactionID": 1682199346462,
+        "too": "living room",
+        "using": ["door"]
+      }
+    ]
+  },
+  {
+    "name": "corridor",
+    "allowConnections": [
+      {
+        "transactionID": 1681681993452,
+        "too": "childrens bedroom",
+        "using": ["door"]
+      },
+      {
+        "transactionID": 1682199360443,
+        "too": "living room",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682202157181,
+        "too": "dining room",
+        "using": ["arch", "door"]
+      }
+    ]
+  },
+  {
+    "name": "hallway",
+    "allowConnections": [
+      {
+        "transactionID": 1681681997251,
+        "too": "childrens bedroom",
+        "using": ["door"]
+      },
+      {
+        "transactionID": 1682199385351,
+        "too": "living room",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682201800908,
+        "too": "outside",
+        "using": ["front door"]
+      },
+      {
+        "transactionID": 1682202205767,
+        "too": "dining room",
+        "using": ["arch", "door"]
+      }
+    ]
+  },
+  {
+    "name": "living room",
+    "allowConnections": [
+      {
+        "transactionID": 1682199337666,
+        "too": "bathroom",
+        "using": ["door"]
+      },
+      {
+        "transactionID": 1682199343361,
+        "too": "bedroom",
+        "using": ["door"]
+      },
+      {
+        "transactionID": 1682199346462,
+        "too": "childrens bedroom",
+        "using": ["door"]
+      },
+      {
+        "transactionID": 1682199360443,
+        "too": "corridor",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682199366650,
+        "too": "dining room",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682199385351,
+        "too": "hallway",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682199390827,
+        "too": "kitchen",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682199398601,
+        "too": "outside",
+        "using": ["front door"]
+      },
+      {
+        "transactionID": 1682199401901,
+        "too": "wc",
+        "using": ["door"]
+      },
+      {
+        "transactionID": 1682202229609,
+        "too": "dining room",
+        "using": ["arch", "door"]
+      }
+    ]
+  },
+  {
+    "name": "bathroom",
+    "allowConnections": [
+      {
+        "transactionID": 1682199337666,
+        "too": "living room",
+        "using": ["door"]
+      }
+    ]
+  },
+  {
+    "name": "bedroom",
+    "allowConnections": [
+      {
+        "transactionID": 1682199343361,
+        "too": "living room",
+        "using": ["door"]
+      }
+    ]
+  },
+  {
+    "name": "dining room",
+    "allowConnections": [
+      {
+        "transactionID": 1682199366650,
+        "too": "living room",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682202157181,
+        "too": "corridor",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682202205767,
+        "too": "hallway",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682202209933,
+        "too": "kitchen",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682202229609,
+        "too": "living room",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682202233093,
+        "too": "wc",
+        "using": ["door"]
+      }
+    ]
+  },
+  {
+    "name": "kitchen",
+    "allowConnections": [
+      {
+        "transactionID": 1682199390827,
+        "too": "living room",
+        "using": ["arch", "door"]
+      },
+      {
+        "transactionID": 1682202209933,
+        "too": "dining room",
+        "using": ["arch", "door"]
+      }
+    ]
+  },
+  {
+    "name": "outside",
+    "allowConnections": [
+      {
+        "transactionID": 1682199398601,
+        "too": "living room",
+        "using": ["front door"]
+      },
+      {
+        "transactionID": 1682201800908,
+        "too": "hallway",
+        "using": ["front door"]
+      }
+    ]
+  },
+  {
+    "name": "wc",
+    "allowConnections": [
+      {
+        "transactionID": 1682199401901,
+        "too": "living room",
+        "using": ["door"]
+      },
+      {
+        "transactionID": 1682202233093,
+        "too": "dining room",
+        "using": ["door"]
+      }
+    ]
+  }
+]
